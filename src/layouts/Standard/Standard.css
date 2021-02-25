@@ -1,0 +1,21 @@
+@import '../../styles/variables.css';
+.standard {
+    height: 100vh;
+}
+
+.standard__header {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 100%;
+    border-bottom: 1px solid var(--light-grey);
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 108px);
+}

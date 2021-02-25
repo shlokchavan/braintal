@@ -1,0 +1,18 @@
+.daysOff {
+    margin: 2rem 0 0 0;
+    width: 100%;
+}
+
+.daysOff__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chip-group {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,34 @@
+.demographic {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.demographic__pic {
+    width: 150px;
+}
+
+.demographic__pic img {
+    border-radius: 50%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.demographic__greeting {
+    padding: 1.5rem 0;
+}
+
+.demographic__message {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.demographic__message p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Form */
+
+.demographic__form {
+    width: 100%;
+}

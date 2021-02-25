@@ -1,0 +1,34 @@
+.availability {
+    /* border: 1px solid red; */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.availability__user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.availability__user img {
+    width: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.availability__user-detail {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.availability__user-detail-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.availability__user-detail-jobtitle {
+    font-size: 16px;
+    font-weight: 400;
+}

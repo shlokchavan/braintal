@@ -1,0 +1,28 @@
+.charges {
+    margin: 2rem 0 0 0;
+    width: 100%;
+}
+
+.charges__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cost-group {
+    padding: 1rem;
+    border: 1px solid currentColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.close-icon {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
